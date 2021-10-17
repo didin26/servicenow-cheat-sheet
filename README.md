@@ -1,9 +1,8 @@
-<h1>servicenow-cheat-sheet</h1>
+# servicenow-cheat-sheet
 
-# <h2>Content</h2>
-<br/>
+## Content
 
-# <h2>Encrypter</h2>
+## Encrypter
     var sys_id = '99d9bb41-1234-5678-9def-a934646209fb';
     
     var gr = new GlideRecord('u_table_name');
@@ -18,7 +17,7 @@
 
     } 
 
-# <h2>OR Condition</h2>
+## OR Condition
     var sys_id = '99d9bb41-1234-5678-9def-a934646209fb';
     
     var parent_task = new GlideRecord('pm_project_task');
@@ -30,7 +29,7 @@
     cond.addOrCondition('short_description','Activate C Service(s)');
     parent_task.query();
 
-# <h2>Switch Case</h2>
+## Switch Case
     var state = current.state;
 
     switch (state.toString()){
