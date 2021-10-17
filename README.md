@@ -1,4 +1,4 @@
-# servicenow-cheat-sheet
+# ServiceNow Cheat Sheet
 
 ## Content
 [Encrypter](https://github.com/didin26/servicenow-cheat-sheet/blob/main/README.md#encrypter), [OR Condition](https://github.com/didin26/servicenow-cheat-sheet/blob/main/README.md#or-condition), [Switch Case](https://github.com/didin26/servicenow-cheat-sheet/blob/main/README.md#switch-case)
