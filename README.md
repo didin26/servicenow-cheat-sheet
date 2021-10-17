@@ -1,7 +1,7 @@
 # servicenow-cheat-sheet
 
 ## Content
-[Encrypter](Encrypter), [OR Condition](ORCondition), [Switch Case](SwitchCase)
+[Encrypter](https://github.com/git/git/blob/master/README#L6), [OR Condition](https://github.com/git/git/blob/master/README#L21), [Switch Case](https://github.com/git/git/blob/master/README#L33)
 
 ## Encrypter
     var sys_id = '99d9bb41-1234-5678-9def-a934646209fb';
