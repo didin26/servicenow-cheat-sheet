@@ -1,7 +1,7 @@
 # ServiceNow Cheat Sheet
 
 ## Content
-[Encrypter](https://github.com/didin26/servicenow-cheat-sheet/blob/main/README.md#encrypter), [OR Condition](https://github.com/didin26/servicenow-cheat-sheet/blob/main/README.md#or-condition), [Switch Case](https://github.com/didin26/servicenow-cheat-sheet/blob/main/README.md#switch-case)
+[Encrypter](https://github.com/didin26/servicenow-cheat-sheet/blob/main/README.md#encrypter), [OR Condition](https://github.com/didin26/servicenow-cheat-sheet/blob/main/README.md#or-condition), [Switch Case](https://github.com/didin26/servicenow-cheat-sheet/blob/main/README.md#switch-case), [setWorkFlow(false)](https://github.com/didin26/servicenow-cheat-sheet/blob/main/README.md#setworkflow(false))
 
 ## Encrypter
     var sys_id = '99d9bb41-1234-5678-9def-a934646209fb';
