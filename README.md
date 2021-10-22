@@ -21,7 +21,7 @@
 ## OR Condition
     var sys_id = '99d9bb41-1234-5678-9def-a934646209fb';
     
-    var parent_task = new GlideRecord('pm_project_task');
+    var parent_task = new GlideRecord('u_table_name');
     parent_task.addQuery('sys_id', sys_id);
     var cond = parent_task.addQuery('short_description','Install A Service(s)');
     cond.addOrCondition('short_description','Install B Service(s)');
@@ -46,3 +46,18 @@
       gs.log('Synch Related Incidents Executed');
     }
     ...
+
+## setWorkFlow(false)
+function : to disable all business rule run after it.
+
+    var gr = new GlideRecord('u_table_name');
+    gr.addQuery('u_customer_name.name','PT. Angin Ribut');
+    gr.addQuery('u_customer_uniqueid','001234');
+    gr.query();
+    while(gr.next() ){
+
+    gr.u_customer_uniqueid = '004321';
+    gr.setWorkflow(false);
+    gr.update();
+
+    }
